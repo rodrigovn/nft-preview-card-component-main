@@ -10,18 +10,43 @@ body {background-color: rgb(0, 26, 51);
   transition: 0.3s;
   float: none;
   margin: auto;
-  margin-bottom: 100px;
-  margin-top: 100px;
   text-align: center;
+  width: 500px;
+  margin-bottom: 10%;
+  margin-top: 10%;
 
 }
-
 .card-body {
   color: white;
   margin: 10%;
   text-align: left;
+  font-size: 12px;
 }
-
+.title{
+  color:rgb(255, 255, 255) ;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.description{
+  color:rgba(217, 217, 217,0.5) ;
+  margin-bottom: 20px;
+}
+.price{
+  color:rgb(0, 204, 255) ;
+  margin-bottom: 20px;
+}
+.time{
+  color:rgba(217, 217, 217,0.5) ;
+  margin-bottom: 20px;
+}
+.card-img-top{
+  width: 250px;
+  height:250px;
+}
+.card-img{
+  width: 20px;
+  height:20px;
+}
 
 .footer {
   position: fixed;
